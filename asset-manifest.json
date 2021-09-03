@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/techmaster/static/css/main.4aa20f31.chunk.css",
+    "main.js": "/techmaster/static/js/main.a3c51971.chunk.js",
+    "main.js.map": "/techmaster/static/js/main.a3c51971.chunk.js.map",
+    "runtime-main.js": "/techmaster/static/js/runtime-main.0e20614f.js",
+    "runtime-main.js.map": "/techmaster/static/js/runtime-main.0e20614f.js.map",
+    "static/js/2.3ec5e40b.chunk.js": "/techmaster/static/js/2.3ec5e40b.chunk.js",
+    "static/js/2.3ec5e40b.chunk.js.map": "/techmaster/static/js/2.3ec5e40b.chunk.js.map",
+    "static/js/3.d5176ee0.chunk.js": "/techmaster/static/js/3.d5176ee0.chunk.js",
+    "static/js/3.d5176ee0.chunk.js.map": "/techmaster/static/js/3.d5176ee0.chunk.js.map",
+    "index.html": "/techmaster/index.html",
+    "static/css/main.4aa20f31.chunk.css.map": "/techmaster/static/css/main.4aa20f31.chunk.css.map",
+    "static/js/2.3ec5e40b.chunk.js.LICENSE.txt": "/techmaster/static/js/2.3ec5e40b.chunk.js.LICENSE.txt",
+    "static/media/vid.5f0542dd.mp4": "/techmaster/static/media/vid.5f0542dd.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e20614f.js",
+    "static/js/2.3ec5e40b.chunk.js",
+    "static/css/main.4aa20f31.chunk.css",
+    "static/js/main.a3c51971.chunk.js"
+  ]
+}
