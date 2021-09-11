@@ -1,9 +1,19 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
+import Header from "./components/Header/Header";
+import App from "./App";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe("App to renders", () => {
+  test("<Header /> contains Techmaster as logo", () => {
+    render(<Header />);
+    const linkElement = screen.getByText(/Techmaster/);
+    expect(linkElement).toBeInTheDocument();
+  });
+
+  test("clicking on brand will render TechMaster", () => {
+    render(<Header />);
+    const brand = screen.getByText(/Techmaster/);
+    userEvent.click(brand);
+    expect(brand).toHaveTextContent(/TechMaster/);
+  });
 });
